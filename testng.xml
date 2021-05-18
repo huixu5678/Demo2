@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite">
+  <test thread-count="5" name="Selenium2021_0428">
+    <classes>
+      <class name="selenium.GridTest">
+        <methods>
+          <include name="testGrid2"/>
+        </methods>
+      </class> <!-- selenium.GridTest -->
+    </classes>
+  </test> <!-- Selenium2021_0428 -->
+</suite> <!-- Default Suite -->
