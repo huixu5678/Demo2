@@ -7,6 +7,7 @@
         <methods>
           <include name="testGrid2"/>
         </methods>
+
       </class> <!-- selenium.GridTest -->
     </classes>
   </test> <!-- Selenium2021_0428 -->
