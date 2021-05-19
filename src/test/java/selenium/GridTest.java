@@ -10,7 +10,7 @@ import java.net.URL;
 
 public class GridTest {
 
-    @Test
+
     public void testChrome() throws Exception{
         DesiredCapabilities dc=DesiredCapabilities.internetExplorer();
         WebDriver driver=new RemoteWebDriver(new URL("http://192.168.0.120:26870/wd/hub"),dc);
@@ -33,7 +33,7 @@ public class GridTest {
         }else if(browser.equals("internetExplorer")){
             dc=DesiredCapabilities.internetExplorer();
         }
-        WebDriver driver=new RemoteWebDriver(new URL("http://192.168.0.120:26870/wd/hub"),dc);
+        WebDriver driver=new RemoteWebDriver(new URL("http://192.168.0.128:18702/wd/hub"),dc);
         driver.get("http://www.baidu.com");
         Thread.sleep(10000);
         driver.quit();
